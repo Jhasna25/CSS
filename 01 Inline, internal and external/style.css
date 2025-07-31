@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+h3{
+    color: green;
+}
+
+p{
+    color: red;
+}
+
+.inline{
+    border: 2px dashed blue;
+    background-color: pink;
+    padding: 8px;
+}
+
+.internal{
+    border: 2px dashed blue;
+    background-color: #c48fe7;
+    padding: 8px;
+}
+
+.external {
+    border: 2px dashed blue;
+    background-color: #69ece6;
+    padding: 8px;
+}

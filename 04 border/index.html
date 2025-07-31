@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border</title>
+    <style>
+        body{
+            text-align: center;
+            margin: 0 30% 10% 30%;
+        }
+
+        h3{
+            color: rgb(0, 120, 0);
+        }
+
+        p{
+            color: cadetblue;
+        }
+
+        .solid{
+            border-style: solid;
+            border-color: blue;
+        }
+        .dashed{
+            border-style: dashed;
+            border-color: rgb(255, 0, 221);
+        }
+        .dotted{
+            border-style: dotted;
+            border-color: brown;
+        }
+        .corner{
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 13px;
+        }
+        .different{
+            border-top: 2px solid darkblue ;
+            border-right: 2px dashed darkblue;
+            border-bottom: 2px double darkblue;
+            border-left: 2px dotted darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Html using Borders</h1>
+    <br/>
+
+    <section class="solid">
+        <h3>Solid border</h3>
+        <p>This paragraph uses solid border as a style.</p>
+    </section>
+    <br>
+
+    <section class="dashed">
+        <h3>Dashed border</h3>
+        <p>This paragraph uses dashed border as a style </p>
+    </section>
+    <br>
+
+    <section class="dotted">
+        <h3>Dotted border</h3>
+        <p>This paragraph uses dotted border as a style</p>
+    </section>
+    <br>
+
+    <section class="corner">
+        <h3>Rounded corners</h3>
+        <p>This paragraph uses rounded corner border radius as a style</p>
+    </section>
+    <br>
+
+    <section class="different">
+        <h3>Different borders</h3>
+        <p>This paragraph uses different top, left, right & bottom border as a style</p>
+    </section>
+    
+</body>
+</html>

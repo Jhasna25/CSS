@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+
+    <style>
+        body{
+            background-color: lightskyblue;
+            margin: 0 30% 50% 30%;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 35px;
+            text-shadow: 2px 2px 5px;
+        }
+
+        .box{
+            box-shadow: 10px 10px 15px rgba(0, 0, 50, 0.87);
+            background-color: aliceblue;
+            padding: 20px;
+        }
+
+        .inset{
+            background-color: aliceblue;
+            box-shadow: inset 5px 5px 7px 2px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Shadow</h1>
+    <br>
+
+    <div class="box">
+        <p>
+            If you are crazy enough to believe that you can, YOU WILL!!
+        </p>
+        <p style="text-align: right;">-Twenty Something</p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="inset">
+        <ul>
+            <li>Thoughts</li>
+            <li>Cruel</li>
+            <li>Mind</li>
+        </ul>
+    </div>
+</body>
+</html>

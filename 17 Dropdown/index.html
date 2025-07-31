@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(241, 145, 106);
+
+        }
+        nav{
+            background-color: green;
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li{
+            position: relative;
+        }
+
+        nav a{
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+
+        nav a:hover{
+            background-color: chartreuse;
+        }
+
+        .dropdown{
+            display: none;
+            position: absolute;
+            background-color: rgb(77, 209, 77);
+            top: 48px;
+            min-width: 150px;
+        }
+        .dropdown a{
+            padding: 10px;
+        }
+
+        nav li:hover .dropdown{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Dropdown in CSS</h1>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">Services▾</a>
+                <div class="dropdown">
+                    <a href="#">Rent</a>
+                    <a href="#">Buy</a>
+                    <a href="#">Demo</a>
+                </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </nav>
+
+    <h3>Home</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime pariatur ut minima quisquam numquam aspernatur nobis natus dignissimos laudantium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugiat, voluptas nisi doloremque debitis natus assumenda necessitatibus, eligendi eos ullam id minus quidem totam consequatur perspiciatis numquam dignissimos ducimus alias itaque molestiae consectetur dolorum facere! Nihil architecto dolor impedit temporibus voluptate cum? Nemo a accusantium quas veniam, officia ipsam perspiciatis 
+    </p><hr>
+
+    <h3>Services</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minus dignissimos sequi accusantium quia harum laborum explicabo, iusto repellat, natus, nulla doloribus repellendus reiciendis assumenda a. Sunt rerum debitis ipsam voluptates laudantium dolore quas a nesciunt maxime quos nisi ex, saepe eos quasi optio hic totam inventore sapiente ullam quisquam.Deserunt ullam optio porro numquam pariatur ipsum maiores impedit dolorem eius voluptatibus.</p>
+    <hr>
+    <h3>Contact</h3>
+    <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corrupti odio commodi vitae perspiciatis nam accusantium qui provident? Natus voluptatem quibusdam aliquam saepe fuga dicta nostrum maiores, illo doloremque ex laboriosam reprehenderit consequatur officiis debitis veritatis quia explicabo assumenda. A quo corporis odio ex eligendi itaque modi unde assumenda placeat! consectetur adipisicing elit. Excepturi illo quas tenetur velit eos perferendis! Ut porro eveniet blanditiis facilis!</p>
+    <hr>
+    <h3>FAQs</h3>
+    <p>Lorem ipsum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, explicabo tenetur debitis consectetur atque nisi facilis? Sunt eius iure, autem, dolorum assumenda, quis praesentium quidem odio illum similique maxime soluta eligendi blanditiis veritatis placeat nulla mollitia deserunt nobis repellendus porro doloremque delectus! Odit, nostrum nesciunt hic animi modi veritatis praesentium?dolor sit amet consectetur adipisicing elit. Autem, ducimus? Incidunt, minima repudiandae quia voluptate tempore beatae nobis expedita distinctio!</p>
+</body>
+</html>

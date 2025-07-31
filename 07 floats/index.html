@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        .float-left{
+            float: left;
+            width: 30%;
+            background-color: aqua;
+            padding: 10px;
+            margin-right: 50px;
+            border: 2px solid black;
+        }
+        .float-right{
+            float: right;
+            width: 30%;
+            background-color: darkkhaki;
+            padding: 10px;
+            margin-left: 50px;
+            border: 2px solid black;
+            
+        }
+        .both{
+            clear: both;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Float CSS</h1>
+
+    <div class="float-left">This box floats to the left</div>
+    <div class="float-right">This box floats to the right</div>
+    <br>
+    <div class="both">
+        <p>This paragraph appears below both boxes using <code>clear:both</code></p>
+    </div>
+</body>
+</html>

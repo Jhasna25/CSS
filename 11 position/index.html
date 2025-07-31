@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        body{
+            background-color: #84c0f8;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            margin: auto;
+        }
+        .static{
+            position: static;
+            background-color: #f8d561;
+            padding: 10px;
+            width: 500px;
+            height: 50px;
+        }
+
+        .absolute-container{
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background-color: #3e91df;
+            margin-top: 50px;
+            bottom: 20px;
+            
+        }
+        .absolute{
+            position: absolute;
+            top: 30px;  
+            left: 1px;          
+            background-color: #f88484;
+            padding: 5px;
+        }
+
+        .relative{
+            position: relative;
+            background-color: #bcf884;
+            top: 20px;
+            left: 10px;
+            padding: 10px;
+            width: 500px;
+            height: 50px;
+        }
+
+        .fixed{
+            position: fixed;
+            background-color: #f5e2a6;
+            bottom: 20px;
+            padding: 10px;
+            right: 10px;
+            width: 500px;
+            height: 50px;
+        }
+
+        .sticky{
+            position: sticky;
+            background-color: #2cb4b4;
+            padding: 10px;
+            top: 20px;
+            right: 30px;
+            width: 500px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Position Assignment</h1>
+
+    <div class="static">Static type of position followscnormal page flow (default)</div>
+    <div class="relative">Relative position moves relative to its original position (here it moved using top, left)</div>
+    <div class="fixed">Fixed position does not move on scroll, remains fixed to the viewport</div>
+    
+    <div class="absolute-container">
+        <div class="absolute">
+            Absolute position positioned relative to the nearest positioned ancestor
+        </div></div>
+    
+    <div class="sticky">Sticky position switches between 'relative' and 'fixed'</div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, Lorem ipsum dolor sit amet consectetur
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nostrum rem voluptatum deserunt cupiditate tempora, ullam perspiciatis dicta enim error quos vero iure officia, fugit cumque illum quo. Consequatur consectetur eos ex voluptate quidem quibusdam incidunt iure nesciunt corporis iste porro sed rem aperiam sunt nisi temporibus modi sapiente natus est, odio vero non ratione! Recusandae non repudiandae eaque, veritatis officiis error! Exercitationem ratione perferendis consequuntur minus veniam, quos quae blanditiis dolores porro incidunt ipsam consectetur ex odio necessitatibus perspiciatis possimus quia. Voluptatibus, necessitatibus! Ducimus debitis perferendis ad mollitia commodi, nulla corrupti asperiores maxime adipisci iusto quae atque eveniet eligendi.adipisicing elit. Voluptatem a temporibus repellendus esse aliquid fuga quasi fugit dolor dicta debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nam ipsum beatae adipisci rerum quibusdam iusto odio. Excepturi quaerat, saepe blanditiis fugit veritatis, reiciendis eius unde praesentium tempora consequatur illum non dolorem ea sapiente nulla iusto omnis modi totam repellendus atque possimus. Laboriosam molestias eos laborum soluta qui, accusantium quo?</p>
+    <div style="height: 1000px;"></div>
+</body>
+</html>

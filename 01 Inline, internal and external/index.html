@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <style>
+        .style{
+            border: 2px solid red;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .internal{
+            color: aqua;
+        }
+
+        .pinternal{
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+       <h1 style="text-align: center;">CSS styling using inline and internal styling</h1>
+
+       <div style="border: 2px solid black; padding: 10px;">
+        <h3 style="padding: 4px; color: green; text-align: center; ">
+            Inline styling
+        </h3>
+        <p style="padding: 10px; color: grey; text-align: center;">This section of paragraph is styled using the css inline styling</p>
+       </div>
+       <br/>
+       <br/>
+       <br/>
+
+       <div class="style">
+        <h3 class="internal">Internal styling</h3>
+        <p class="pinternal">This section of paragraph is styles using internal styling</p>
+       </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        body{
+            text-align: center;
+            margin: auto;
+            background-color: rgb(241, 177, 198);
+        }
+        .box{
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+            margin: auto;
+            border: 2px solid #000000;
+            background-color: #b9b7b7;
+        }
+
+        .visible{
+            overflow: visible;
+            margin-bottom: 15px;
+
+        }
+        .hidden{
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        .scroll{
+            overflow: scroll;
+            margin-bottom: 15px;
+        }
+        .auto{
+            overflow: auto;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Overflow CSS</h1>
+
+    <div class="box visible">
+        <h3>Visible</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt neque ea, magni cum optio similique corporis rem voluptas repellat at id assumenda molestiae doloribus eius blanditiis nam error libero, hic excepturi quaerat reprehenderit dolor est? Totam dicta consequatur error eaque nesciunt corporis, et nobis explicabo saepe, architecto modi eum ipsam.</p>
+    </div>
+
+    <div class="box hidden">
+        <h3>Hidden</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad animi exercitationem tempora voluptatibus earum inventore, sint fugit debitis labore, accusantium consectetur, similique ut alias sunt amet at optio vel delectus sapiente perspiciatis in? Minus, iure architecto! Consequatur, laudantium? Rem consequatur culpa laborum necessitatibus similique dolores in, vel fugit quos.</p>
+    </div>
+
+    <div class="box scroll">
+        <h3>Scroll</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequuntur assumenda, quos veritatis eius explicabo sed beatae quasi sapiente dolorum eligendi laborum. Ex labore eos rem, dolorem repellendus voluptatem voluptas eaque maxime voluptate quaerat libero sunt. Dolores soluta, ullam nam possimus sit ad aliquid numquam ducimus omnis totam fugiat facere?</p>
+    </div>
+
+    <div class="box auto">
+        <h3>Auto</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, illo. In rerum dicta vel ut expedita repudiandae similique? Dolorem dicta fuga earum enim ratione eos harum consequuntur eaque cum, cumque excepturi rerum quae autem nemo. Sapiente ea adipisci minus consequatur harum fugit tempora accusantium quis saepe perferendis, nobis et fuga.</p>
+    </div>
+</body>
+    
+</html>

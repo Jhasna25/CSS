@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(238, 150, 150);
+        }
+        p {
+            border: 2px dashed #0c0c0c;
+            padding: 10px;
+            background-color: rgb(175, 124, 223);
+        }
+        h1::before{
+            content: "🤨";
+        }
+        h1::after{
+            content: "♘";
+        }
+
+        p::first-line{
+            color: red;
+            font-size: bold;
+        }
+
+        p::first-letter{
+            font-size: 200%;
+            color: blue;
+        }
+
+        p::selection{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <H1>Hello! Welcome to my little world of coding</H1>
+
+    <p>It is not experiences themselves that are the cause of our success or failure, but rather how we give meaning to them. We are not determined by our past, but by the goals we set for ourselves. What truly matters is not what we are born with, but how we utilize what we have. Therefore, our unhappiness isn't rooted in our past or environment, but rather in a lack of courage to embrace change and pursue happiness</p>
+</body>
+</html>

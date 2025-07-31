@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" width="device-width, initial-scale=1.0">
+    <title>Height and Weight</title>
+
+    <style>
+        body{
+            background-color: #d0f5ab;
+            text-align: center;
+        }
+
+        div{
+            margin: auto;
+            
+        }
+        
+        .fixed{
+            height: 200px;
+            width: 300px;
+            background-color: #d1c4e9;
+            margin-bottom: 10px;
+            border: 1px solid black;
+        }
+
+        .percent{
+            height: 100px;
+            width: 70%;
+            background-color: #754;
+            margin-bottom: 10px;
+            border: 1px solid black;
+        }
+
+        .viewport{
+            height: 10vh;
+            width: 50vw;
+            background-color: #ffb2de;
+            margin-bottom: 1ppx;
+            border: 1px solid black;
+        }
+
+        .limited{
+            width: 500px;
+            max-width: 90%;
+            min-height: 100px;
+            overflow: auto;
+            background-color: #c21a79;
+            margin-top: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Height and Weight in Css</h1>
+
+    <div class="fixed">Section with fixed height and width(px)</div>
+    <div class="percent">Section with percent height and weight (%)</div>
+    <div class="viewport">Section with viewport height and weight (vw/vh)</div>
+    <div class="limited">Section with max. and minimum height and width. Resize it to see the effect</div>
+</body>
+</html>
